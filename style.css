@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  overflow: hidden;
+  font-family: "Nunito";
+  font-weight: bold;
+}
+header {
+  height: 100vh;
+  width: 100%;
+}
+/* side-navbar */
+.side-navbar i {
+  margin-left: 32px;
+  font-size: xx-large;
+  margin-top: 44px;
+  animation: slide-in 1s ease-out;
+  animation-delay: 0.5s;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.design a {
+  position: relative;
+}
