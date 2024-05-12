@@ -68,8 +68,8 @@
 
                 <div class="rating"> <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                 </div>
                 <a href=""><i class="fa-solid fa-cart-plus"></i></a>
@@ -126,6 +126,17 @@
         </div>
     </header>
 
+
+    <script>
+
+        // toggle-light-dark-mode
+        const themeSwitch = document.getElementById('theme-switch');
+        const body = document.body;
+
+        themeSwitch.addEventListener('change', function () {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 
 </html>
