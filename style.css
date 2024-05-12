@@ -34,8 +34,6 @@ header {
 }
 .design a {
   position: relative;
-<<<<<<< Updated upstream
-=======
   top: 57rem;
   right: 45rem;
   display: block;
@@ -598,5 +596,4 @@ body.dark-mode {
 .dark-mode .anker,
 .dark-mode .sp {
   color: #fff;
->>>>>>> Stashed changes
 }
